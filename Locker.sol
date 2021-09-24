@@ -2,10 +2,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol";
+import "./ERC20Burnable.sol";
+import "./Ownable.sol";
+import "./SafeMath.sol";
+import "./IERC721Enumerable.sol";
 
 contract uSTD is ERC20Burnable, Ownable {
     /*
